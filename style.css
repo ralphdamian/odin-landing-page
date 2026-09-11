@@ -20,9 +20,10 @@ button, .banner {
 
 }
 
-.hero-left-title {
+.hero-maintext{
     font-size: 48px;
     color: #F9faf8;
+    font-weight: 900;
 }
 
 .hero-left-subtext {
