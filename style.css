@@ -35,8 +35,10 @@ ul {
 
 .hero {
     border: 2px solid black;
+    display: flex;
 
 }
+
 
 .hero-maintext{
     font-size: 48px;
