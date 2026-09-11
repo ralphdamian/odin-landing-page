@@ -15,6 +15,11 @@ button, .banner {
     border: 2px solid red;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .hero {
     border: 2px solid black;
 
