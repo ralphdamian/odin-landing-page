@@ -15,6 +15,11 @@ button, .banner {
     border: 2px solid red;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
