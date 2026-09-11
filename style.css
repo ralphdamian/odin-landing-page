@@ -2,13 +2,47 @@
     font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
 }
 
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+
+button, .banner {
+    background-color: #3882f6;
+}
+
 .header {
-    background-color: #1F2937;
     color: white;
     border: 2px solid red;
 }
 
 .hero {
-    
+    border: 2px solid black;
+
+}
+
+.hero-left-title {
+    font-size: 48px;
+    color: #F9faf8;
+}
+
+.hero-left-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.body {
+    border: 2px solid yellow;
+}
+
+.cards {
+    border: 2px solid orange;
+}
+
+.quoterow {
+    border: 2px solid blue;
+}
+
+.bannerrow {
+    border: 2px solid magenta;
 }
 
