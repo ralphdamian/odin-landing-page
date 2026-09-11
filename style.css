@@ -39,6 +39,11 @@ button, .banner {
 }
 
 .quoterow {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
     border: 2px solid blue;
 }
 
