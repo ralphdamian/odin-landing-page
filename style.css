@@ -20,8 +20,12 @@ nav {
     justify-content: space-around;
 }
 
+ul {
+    list-style: none;
+}
 .right-nav {
     display: flex;
+    gap: 16px;
 }
 
 .logo {
