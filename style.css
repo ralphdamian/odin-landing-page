@@ -144,13 +144,17 @@ ul {
     font-weight: 300;
     font-style: italic;
     display: flex;
+    padding-top: 96px;
+    padding-bottom: 96px;
     border: 2px solid blue;
+}
+
+.quote figcaption {
+    text-align: right;
+    font-style: normal;   
 }
 
 .bannerrow {
     border: 2px solid magenta;
 }
 
-.quote figcaption {
-    text-align: right;
-}
