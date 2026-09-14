@@ -155,13 +155,18 @@ ul {
 }
 
 .banner-row {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
     border: 2px solid magenta;
 }
 
-.banner {
+.container.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 8px;
+    margin: 96px 0;
     border: 2px solid green;
 }
 
