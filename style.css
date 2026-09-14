@@ -116,6 +116,12 @@ ul {
     justify-content: center;
 }
 
+.card-box {
+    border: 4px solid  blue;
+    height: 165px;
+    border-radius: 16px;
+}
+
 .quoterow {
     background-color: #e5e7eb;
     font-size: 36px;
