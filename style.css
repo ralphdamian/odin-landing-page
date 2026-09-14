@@ -116,7 +116,7 @@ ul {
     border: 2px solid orange;
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 50px;
 }
 
 .card-box {
@@ -126,10 +126,15 @@ ul {
     border-radius: 16px;
 }
 
+.card {
+    width: 165px;
+}
+
 .card p {
     margin-top: 8px;
     font-size: 18px;
     text-align: center;
+    color: grey;
 }
 
 .quoterow {
