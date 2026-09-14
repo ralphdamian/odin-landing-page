@@ -1,9 +1,31 @@
 * {
     font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.header, .hero, .footer {
+body {
+    background-color: white;
+}
+
+.container {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 96px;
+}
+
+.hero-left button {
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    padding: 8px 32px;
 }
 
 button, .banner {
@@ -15,11 +37,10 @@ button, .banner {
     border: 2px solid red;
 }
 
-nav {
+.container {
     display: flex;
-    justify-content: space-around;
-}
 
+}
 ul {
     list-style: none;
 }
@@ -36,9 +57,34 @@ ul {
 .hero {
     border: 2px solid black;
     display: flex;
-
+    align-items: center;
 }
 
+.hero-right {
+    flex: 520 1 0;
+    min-height: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--image-gray);
+    color: var(--off-white);
+    font-size: 18px;
+    text-align: center;
+    padding: 16px;
+}
+
+.img-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 35 / 16;
+    background-color: #7d828b;
+    color: #f0f0f0;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid red;
+    padding: 16px 32px;
+}
 
 .hero-maintext{
     font-size: 48px;
@@ -71,4 +117,3 @@ ul {
 .bannerrow {
     border: 2px solid magenta;
 }
-
