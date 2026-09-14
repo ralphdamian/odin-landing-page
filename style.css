@@ -32,7 +32,7 @@ body {
     padding: 8px 32px;
 }
 
-button, .banner {
+button {
     background-color: #3882f6;
 }
 
@@ -154,19 +154,23 @@ ul {
     font-style: normal;   
 }
 
-.banner-row {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid magenta;
-}
 
 .container.banner {
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 128px;
+}
+
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 8px;
-    margin: 96px 0;
+    background-color: #3882F6;
+    color: white;
+    padding: 48px 120px;
     border: 2px solid green;
 }
 
