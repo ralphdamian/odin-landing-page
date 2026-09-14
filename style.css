@@ -15,12 +15,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 25%;
-    gap: 32px;
 }
 
 .container.hero {
     padding-top: 96px;
     padding-bottom: 96px;
+    gap: 32px;
 }
 
 .hero-left button {
@@ -137,12 +137,13 @@ ul {
     color: grey;
 }
 
-.quoterow {
+.quote-section {
     background-color: #e5e7eb;
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
     font-style: italic;
+    display: flex;
     border: 2px solid blue;
 }
 
