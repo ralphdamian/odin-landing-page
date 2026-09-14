@@ -73,6 +73,10 @@ ul {
     padding: 16px;
 }
 
+.hero-left {
+    flex: 452 1 0;
+}
+
 .img-placeholder {
     display: flex;
     align-items: center;
@@ -80,29 +84,36 @@ ul {
     aspect-ratio: 35 / 16;
     background-color: #7d828b;
     color: #f0f0f0;
-    font-size: 1rem;
+    font-size: 18px;
     text-align: center;
     border: 1px solid red;
-    padding: 16px 32px;
+    padding: 16px;
+    flex: 520 1 0;
 }
 
 .hero-maintext{
     font-size: 48px;
     color: #F9faf8;
     font-weight: 900;
+    margin-bottom: 8px;
 }
 
 .hero-left-subtext {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 8px;
 }
 
 .body {
     border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards {
     border: 2px solid orange;
+    display: flex;
+    justify-content: center;
 }
 
 .quoterow {
