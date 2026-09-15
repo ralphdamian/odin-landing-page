@@ -20,9 +20,28 @@ body {
     background-color: #1f2937;
 }
 
+.container.header-inner {
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero {
+    padding: 110px 0 133px;
 }
 
 .hero-text h1 {
@@ -34,5 +53,9 @@ body {
 .hero-text p {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button, .cta-box {
+    background-color: #3882f6;
 }
 
