@@ -20,6 +20,7 @@ body {
 }
 
 .container.header-inner {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
